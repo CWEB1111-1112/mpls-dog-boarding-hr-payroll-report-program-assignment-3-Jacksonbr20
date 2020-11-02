@@ -1,0 +1,12 @@
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\bin\Debug\netcoreapp1.1\assignment_three.deps.json
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\bin\Debug\netcoreapp1.1\assignment_three.runtimeconfig.json
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\bin\Debug\netcoreapp1.1\assignment_three.runtimeconfig.dev.json
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\bin\Debug\netcoreapp1.1\assignment_three.dll
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\bin\Debug\netcoreapp1.1\assignment_three.pdb
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\obj\Debug\netcoreapp1.1\assignment_three.csprojAssemblyReference.cache
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\obj\Debug\netcoreapp1.1\assignment_three.AssemblyInfoInputs.cache
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\obj\Debug\netcoreapp1.1\assignment_three.AssemblyInfo.cs
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\obj\Debug\netcoreapp1.1\assignment_three.csproj.CoreCompileInputs.cache
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\obj\Debug\netcoreapp1.1\assignment_three.dll
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\obj\Debug\netcoreapp1.1\assignment_three.pdb
+C:\Users\jacbraq\Desktop\CWEB1112\Assignment_3\obj\Debug\netcoreapp1.1\assignment_three.genruntimeconfig.cache
