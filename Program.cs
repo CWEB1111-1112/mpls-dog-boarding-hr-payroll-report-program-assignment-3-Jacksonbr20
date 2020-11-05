@@ -19,10 +19,11 @@ namespace assignment_three
             string name;
             double salary, hourly;
             string [] departments = {"personnel", "marketing", "information technology", "computer service", "sales", "legal", "accounting"};
-
+            // Trigger
             Console.WriteLine("Please enter department ID (0-personnel, 1-marketing, 2-infromation technology, 3-computer service, 4-sales, 5-legal, 6-accounting)");
             Console.WriteLine("9 to quit");
             int dptID = Convert.ToInt32(Console.ReadLine());
+            // multidimensional arrays
             // double [,] dptSalaries = {dptID, salary};
 
             // int [] personnelSalary, marketingSalary, infoTechSalary, compServiceSalary, salesSalary, legalSalary, acountingSalary;
@@ -32,7 +33,7 @@ namespace assignment_three
             int END = 9;
             
             while(dptID != END){
-
+                // Defensive Programming
                 while(dptID > 6 && dptID != 9){
                     Console.WriteLine("Incorrect, please enter department ID");
                     dptID = Convert.ToInt32(Console.ReadLine());
@@ -46,34 +47,34 @@ namespace assignment_three
                 salary = 52 * 40 * hourly;
                 Console.WriteLine("Name: " + name + " department: " + departments[dptID] + " salary: " + salary);
 
-                    // if(dptID == 0){
-                    //     personnelNames [];
-                    //     personnelSalary [];
-                    // }
-                    // if(dptID == 1){
-                    //     marketingNames [];
-                    //     marketingSalary [];
-                    // }
-                    // if(dptID == 2){
-                    //     infoTechNames [];
-                    //     infoTechSalary [];
-                    // }
-                    // if(dptID == 3){
-                    //     compServiceName [];
-                    //     compServiceSalary [];
-                    // }
-                    // if(dptID == 4){
-                    //     salesName [];
-                    //     salesSalary [];
-                    // }
-                    // if(dptID == 5){
-                    //     legalName [];
-                    //     legalSalary [];
-                    // }
-                    // if(dptID == 6){
-                    //     accountingName [];
-                    //     acountingSalary [];
-                    // }
+                    if(dptID == 0){
+                        personnelNames [];
+                        personnelSalary [];
+                    }
+                    if(dptID == 1){
+                        marketingNames [];
+                        marketingSalary [];
+                    }
+                    if(dptID == 2){
+                        infoTechNames [];
+                        infoTechSalary [];
+                    }
+                    if(dptID == 3){
+                        compServiceName [];
+                        compServiceSalary [];
+                    }
+                    if(dptID == 4){
+                        salesName [];
+                        salesSalary [];
+                    }
+                    if(dptID == 5){
+                        legalName [];
+                        legalSalary [];
+                    }
+                    if(dptID == 6){
+                        accountingName [];
+                        acountingSalary [];
+                    }
                 }
 
                 Console.WriteLine("Please enter department ID");
