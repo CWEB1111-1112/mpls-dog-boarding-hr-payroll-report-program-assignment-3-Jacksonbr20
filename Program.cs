@@ -17,6 +17,7 @@ namespace assignment_three
         {
             string name;
             double salary, hours;
+            //parallel array
             string [] departments = {"Personnel", "Marketing", "Information Technology", "Computer Service", "Sales", "Legal", "Accounting"};
             double [] dptSalary = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
             // Trigger
@@ -29,10 +30,10 @@ namespace assignment_three
             while(dptID != SENTINEL){
                 // Defensive Programming
                 while(dptID > 6 && dptID != 9){
-                    Console.WriteLine("Incorrect, please enter department ID");
+                    Console.WriteLine("Incorrect, please enter department ID or 9 to exit");
                     dptID = Convert.ToInt32(Console.ReadLine());
                 }
-
+                //choice statement 
                 if(dptID < 7){
                     Console.WriteLine("Please enter name:");
                     name = Console.ReadLine();
@@ -48,6 +49,8 @@ namespace assignment_three
                 Console.WriteLine("Please enter department ID");
                 dptID = Convert.ToInt32(Console.ReadLine());
             }
+            //once exiting the while loop, output department and salary
+            //for loop to output each department name paralled with department salary array
             for(int i = 0; i < 7; i++){
             Console.WriteLine(departments[i] + " Department's total gross salary is " + dptSalary[i]);
             }
